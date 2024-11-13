@@ -1,0 +1,38 @@
+{
+    "UiPath.Core.Activities.Click":{
+        "name":"click_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.ClickText":{
+        "name":"click_text_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.CloseWindow":{
+        "name":"close_window_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.Delay":{
+        "name":"delay_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.UiElementExists":{
+        "name":"exist_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.If":{
+        "name":"if_then_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.OpenBrowser":{
+        "name":"open_browser_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.TypeInto":{
+        "name":"type_into_activity.xaml",
+        "parameters" : ""
+    },
+    "UiPath.Core.Activities.TypeSecureText":{
+        "name":"type_secure_text_activity.xaml",
+        "parameters" : ""
+    }
+}
