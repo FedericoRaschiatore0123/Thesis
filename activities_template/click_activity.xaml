@@ -1,18 +1,7 @@
-<ui:Click xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ui:Click xmlns:ui="http://schemas.uipath.com/workflow/activities"
           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-          xmlns:ui="http://schemas.uipath.com/workflow/activities"
           xmlns:sap="http://schemas.uipath.com/sap/activities"
-          xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
-          AlterIfDisabled="{x:Null}" 
-          DelayBefore="{x:Null}" 
-          DelayMS="{x:Null}" 
-          SendWindowMessages="{x:Null}" 
-          SimulateClick="{x:Null}" 
-          ClickType="CLICK_SINGLE" 
-          sap:VirtualizedContainerService.HintSize="334,68" 
-          sap2010:WorkflowViewState.IdRef="Click_2" 
-          KeyModifiers="None" 
-          MouseButton="BTN_LEFT">
+          xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation">
     <ui:Click.CursorPosition>
         <ui:CursorPosition Position="Center">
             <ui:CursorPosition.OffsetX>
