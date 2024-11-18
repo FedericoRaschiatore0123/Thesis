@@ -1,1 +1,1 @@
-<ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="CloseWindow_1" WaitForReady="INTERACTIVE" />
+<ui:CloseWindow xmlns:ns0="http://schemas.uipath.com/workflow/activities" />
