@@ -1,4 +1,4 @@
-<ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SecureText="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
+<ui:TypeSecureText xmlns:ns0="http://schemas.uipath.com/workflow/activities">
       <ui:TypeSecureText.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="33880e39-1040-4852-af58-94a75a3d6ae9">
           <ui:Target.TimeoutMS>
