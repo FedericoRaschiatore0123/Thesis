@@ -1,4 +1,4 @@
-<If Condition="True" sap:VirtualizedContainerService.HintSize="484,222" sap2010:WorkflowViewState.IdRef="If_1">
+<If xmlns:ns0="http://schemas.uipath.com/workflow/activities">
       <If.Then>
         <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
           <ui:Click.CursorPosition>
