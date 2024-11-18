@@ -1,1 +1,1 @@
-<Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delay_2" />
+<Delay xmlns:ns0="http://schemas.uipath.com/workflow/activities" />
