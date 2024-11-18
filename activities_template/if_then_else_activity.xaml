@@ -1,6 +1,6 @@
-<If Condition="True" sap:VirtualizedContainerService.HintSize="714,250" sap2010:WorkflowViewState.IdRef="If_1">
+<If xmlns:ns0="http://schemas.uipath.com/workflow/activities">
       <If.Then>
-        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click xmlns:ns0="http://schemas.uipath.com/workflow/activities">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -24,7 +24,7 @@
         </ui:Click>
       </If.Then>
       <If.Else>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="{x:Null}" Activate="True" DisplayName="Type Into" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="TypeInto_4">
+        <ui:TypeInto xmlns:ns0="http://schemas.uipath.com/workflow/activities">
           <ui:TypeInto.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="7b0dfbf5-fa16-47a5-b729-1e1177a96c1b">
               <ui:Target.TimeoutMS>
