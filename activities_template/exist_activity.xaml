@@ -1,4 +1,4 @@
-<ui:UiElementExists DisplayName="Element Exists 'DIV'" Exists="[exist_variable]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+<ui:UiElementExists xmlns:ns0="http://schemas.uipath.com/workflow/activities" >
       <ui:UiElementExists.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html app='chrome.exe' title='Identity Cloud Service' /&gt;&lt;webctrl parentid='idcs-signin-basic-signin-form-submit' tag='DIV' /&gt;">
           <ui:Target.TimeoutMS>
