@@ -1,25 +1,23 @@
-<ui:Click xmlns:ui="http://schemas.uipath.com/workflow/activities"
-          xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-          xmlns:sap="http://schemas.uipath.com/sap/activities"
-          xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation">
-    <ui:Click.CursorPosition>
-        <ui:CursorPosition Position="Center">
-            <ui:CursorPosition.OffsetX>
-                <InArgument x:TypeArguments="x:Int32" />
-            </ui:CursorPosition.OffsetX>
-            <ui:CursorPosition.OffsetY>
-                <InArgument x:TypeArguments="x:Int32" />
-            </ui:CursorPosition.OffsetY>
-        </ui:CursorPosition>
-    </ui:Click.CursorPosition>
-    <ui:Click.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}">
-            <ui:Target.TimeoutMS>
-                <InArgument x:TypeArguments="x:Int32" />
-            </ui:Target.TimeoutMS>
-            <ui:Target.WaitForReady>
-                <InArgument x:TypeArguments="ui:WaitForReady" />
-            </ui:Target.WaitForReady>
-        </ui:Target>
-    </ui:Click.Target>
-</ui:Click>
+
+    <ns0:Click xmlns:ns0="http://schemas.uipath.com/workflow/activities">
+      <ns0:Click.CursorPosition>
+        <ns0:CursorPosition Position="Center">
+          <ns0:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32">0</InArgument>
+          </ns0:CursorPosition.OffsetX>
+          <ns0:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32">0</InArgument>
+          </ns0:CursorPosition.OffsetY>
+        </ns0:CursorPosition>
+      </ns0:Click.CursorPosition>
+      <ns0:Click.Target>
+        <ns0:Target Selector="&lt;valid_selector&gt;" ClippingRegion="{x:Null}" Element="{x:Null}">
+          <ns0:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32">3000</InArgument>
+          </ns0:Target.TimeoutMS>
+          <ns0:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady">COMPLETE</InArgument>
+          </ns0:Target.WaitForReady>
+        </ns0:Target>
+      </ns0:Click.Target>
+    </ns0:Click>
