@@ -1,4 +1,5 @@
-<ui:ClickText ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" FormattedText="{x:Null}" SendWindowMessages="{x:Null}" Text="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Text" sap:VirtualizedContainerService.HintSize="334,96" sap2010:WorkflowViewState.IdRef="ClickText_1" KeyModifiers="None" MouseButton="BTN_LEFT" Occurrence="1">
+
+    <ui:ClickText xmlns:ns0="http://schemas.uipath.com/workflow/activities">
       <ui:ClickText.CursorPosition>
         <ui:CursorPosition Position="Center">
           <ui:CursorPosition.OffsetX>
@@ -20,3 +21,4 @@
         </ui:Target>
       </ui:ClickText.Target>
     </ui:ClickText>
+	
